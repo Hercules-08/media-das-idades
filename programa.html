@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	document.write("A média das idades é " + (20 + 10 + 30)/3);
+	pulaLinha();
+
+	var ano = 2017;
+
+	//document.write("Barry tem " + (ano - 1996));
+
+	mostra("Barry tem " + (ano - 1996));
+
+	//document.write("Bart tem " + (ano - 2010));
+	mostra("Bart tem " + (ano - 2010));
+
+	//document.write("Thay tem " + (ano - 1991));
+		mostra("Thay tem " + (ano - 1991));
+
+	var idadeBarry = 39;
+	var idadeBart = 20;
+	var idadeWally = 41;
+
+
+	var media = (idadeBarry + idadeBart + idadeWally)/3;
+	document.write("A média das idades é " + Math.round(media));
+</script>
